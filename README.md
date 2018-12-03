@@ -7,5 +7,5 @@ to run
 ```
 sample 
 ```
-./searchReplace.sh \$primaryColor \$brand-primary '/home/edalati/Workspace/VideoVarzesh3/src/hawk/sass/component/**'
+./searchReplace.sh \$primaryColor \$brand-primary '/home/username/projectname/src/sass/component/**'
 ```
