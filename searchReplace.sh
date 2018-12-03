@@ -1,7 +1,6 @@
 #! /bin/bash
-for file in ./Workspace/VideoVarzesh3/src/hawk/sass/component/** ;do
+for file in $3 ;do
     if [[ -f $file ]] && [[ -w $file ]]; then
-        sed -i -- 's/$1/$2/g' "$file"
+        sed -i -- 's/'$1'/'$2'/g' "$file"
     fi
-    "$file"
 done
